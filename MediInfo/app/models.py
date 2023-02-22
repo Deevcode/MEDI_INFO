@@ -24,7 +24,7 @@ class MarcaMedicamento(models.Model):
 #TABLA DE ADMINISTRACION MEDICAMENTO
 class ViaAdminstracion(models.Model):
     nombre = models.CharField(max_length=40)
-    
+
     def __str__(self):
         return self.nombre
 
@@ -41,5 +41,3 @@ class Medicamento(models.Model):
 
     def __str__(self):
         return self.nombre
-
-
